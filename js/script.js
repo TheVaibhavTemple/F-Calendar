@@ -39,7 +39,14 @@
             start: "2023-11-27T04:00:00",
             end: "2023-11-27T06:00:00",
             resourceId: 'c'
-        }
+        },
+        {
+          id: 'g',
+          title: 'Mr. Arpit',
+          start: "2023-11-27T03:30:00",
+          end: "2023-11-27T04:30:00",
+          resourceId: 'a'
+      }
       ];
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
