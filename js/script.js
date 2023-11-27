@@ -39,7 +39,14 @@
             start: "2023-11-27T04:00:00",
             end: "2023-11-27T06:00:00",
             resourceId: 'c'
-        }
+        },
+        {
+          id: 'f',
+          title: 'Mr. Arpit Baba',
+          start: "2023-11-27T09:00:00",
+          end: "2023-11-27T12:00:00",
+          resourceId: 'f'
+      }
       ];
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
